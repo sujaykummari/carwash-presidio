@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index2.css">
+    <link rel="icon" href="png.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Car Wash</title>
+</head>
+<body>
+    
+<div class="booking-widget">
+                <div class='booking-widget__header' style="background-color: black;">
+                    <figure >
+                      <!-- <img src='logo192.png'> -->
+                      <figcaption class='header-caption'>
+                        <h3 id="">Car wash</h3>
+                        
+                      </figcaption>         
+                    </figure>
+                </div>
+                <form>
+                    <ul class='booking-widget__form'>
+                        <li>
+                            <label for='check-in'>Check in</label>
+                            <div id='check-in' class='form-field'>
+                                <input type="text" value="" placeholder="9 July, 2016">
+                                <div class='datepicker'><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                            <label for='check-in'>Check out</label>
+                            <div id='check-out' class='form-field'>
+                                <input type="text" value="" placeholder="14 July, 2016">
+                                <div class='datepicker'><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                            </div>
+                        </li>
+                        <li>
+                          <div class=' form-field form-field__checkbox'>
+                            <input type="checkbox" id='flexibleDates' value="">
+                          </div>
+                            <label for="flexibleDates">Flexible dates</label>
+                        </li>
+                        <li>
+                            <div class='form__dropdown'>
+                                <label for='adultsAmount'>Wash Type</label>
+                                <br>
+                              <div class='form-field'> 
+                                <select id='adultsAmount'> 
+                                        <option value="dry wash" selected="selected"></option>                        
+                                        <option value="Oil wash">dry wash</option>
+                                        <option value="Polisher wash">Polisher wash</option>
+                                        <option value="plane wash">Oil wash</option>
+                                        <option value="foam wash">plane wash</option>
+                                        <option value="foam wash">foam wash</option>
+                                        
+                                </select>
+                                <div class='select-button'><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+                                </div>
+                            </div>
+                            
+                        </li>
+                        <li>
+                            <input type="submit" id='bookingSubmit' class='form__submit' value='Book Wash'>
+                        </li>
+                    </ul>       
+                </form>
+            </div>
+
+            <div class="youtubeBtn">
+                <a  href="index.html">
+                    <span>Sign in</span>
+                  </a>
+              </div>  
+           
+
+            
+</body>
+</html>
